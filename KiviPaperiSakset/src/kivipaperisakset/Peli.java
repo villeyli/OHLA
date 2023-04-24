@@ -18,12 +18,12 @@ public class Peli {
 	 * @param p2 - pelaaja kaksi
 	 */
 	public void pelaa(Pelaaja p1, Pelaaja p2) {
+		int pelatutPelit = 0; // Pelattujen pelien lkm
+		int tasapelit = 0; // Tasapelien lkm
+		// Pelaajien valinta kivi, sakset tai papaeri
+		String p1Valinta;		
+		String p2Valinta;
 		do {
-			int pelatutPelit = 0; // Pelattujen pelien lkm
-			int tasapelit = 0; // Tasapelien lkm
-			// Pelaajien valinta kivi, sakset tai papaeri
-			String p1Valinta;		
-			String p2Valinta;
 			// Konsolintulostuksia pelinkulun seuraamiseksi
 			System.out.println("Erä: " + pelatutPelit + " =====================\n");
 			System.out.println("Tasapelien lukumäärä: " + tasapelit + "\n");
